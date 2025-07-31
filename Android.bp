@@ -11763,6 +11763,7 @@ cc_prebuilt_library_shared {
                 "libsnsapi",
                 "libsensorslog",
                 "libssc",
+                "libmisight",
                 "libutils",
                 "libcutils",
                 "libhardware",
