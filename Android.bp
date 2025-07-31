@@ -9265,7 +9265,6 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libsync",
-                "vendor.qti.hardware.display.config-V2-ndk_platform",
                 "android.hardware.graphics.common@1.1",
                 "libhardware",
                 "libhidlbase",
