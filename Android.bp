@@ -11760,6 +11760,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
+                "libmisight",
                 "libsnsapi",
                 "libsensorslog",
                 "libssc",
