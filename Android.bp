@@ -3957,6 +3957,16 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libMiVideoFilter",
+    owner: "xiaomi",
+    strip: { none: true },
+    compile_multilib: "64",
+    srcs: ["proprietary/vendor/lib64/libMiVideoFilter.so"],
+  
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.xiaomi.node.misegment",
     owner: "xiaomi",
     strip: {
