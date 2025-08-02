@@ -9286,6 +9286,7 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libdisplayconfig.qti",
                 "vendor.qti.hardware.display.config-V2-ndk",
+                "vendor.qti.hardware.display.config-V2-ndk_platform",
                 "libz",
                 "libc",
                 "libm",
@@ -9295,6 +9296,21 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.display.config-V2-ndk_platform",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    compile_multilib: "64",
+    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so"],
+    shared_libs: [
+        "libbinder_ndk",
+        "libc++",
+    ],
     soc_specific: true,
 }
 
