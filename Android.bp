@@ -3962,7 +3962,13 @@ cc_prebuilt_library_shared {
     strip: { none: true },
     compile_multilib: "64",
     srcs: ["proprietary/vendor/lib64/libMiVideoFilter.so"],
-  
+    shared_libs: [
+        "liblog",
+        "libGLESv3",
+        "libEGL",
+        "libnativewindow",
+        "libz",
+    ],
     soc_specific: true,
 }
 
