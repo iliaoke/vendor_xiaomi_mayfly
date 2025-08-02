@@ -9312,6 +9312,7 @@ cc_prebuilt_library_shared {
         "libc++",
     ],
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
