@@ -3936,6 +3936,7 @@ cc_prebuilt_library_shared {
                 "libchilog",
                 "liblog",
                 "libcom.qti.chinodeutils",
+                "libMiVideoFilter",
                 "libutils",
                 "libcutils",
                 "libvideofilter_only",
