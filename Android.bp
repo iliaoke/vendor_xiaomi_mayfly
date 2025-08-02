@@ -3970,6 +3970,7 @@ cc_prebuilt_library_shared {
         "libz",
     ],
     soc_specific: true,
+    allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
