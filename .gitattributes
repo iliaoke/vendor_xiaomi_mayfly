@@ -1,3 +1,3 @@
-radio/*.img filter=lfs diff=lfs merge=lfs -text
-proprietary/vendor/lib64/librelight_only.so filter=lfs diff=lfs merge=lfs -text
-proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition.so filter=lfs diff=lfs merge=lfs -text
+*.so   filter=lfs diff=lfs merge=lfs -text
+*.bin  filter=lfs diff=lfs merge=lfs -text
+*.img  filter=lfs diff=lfs merge=lfs -text
